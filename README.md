@@ -1,3 +1,3 @@
 # JS-Prod-20-Template
 
-Main teplate base for simple projects
+Main template base for simple projects
