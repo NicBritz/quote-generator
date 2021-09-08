@@ -37,9 +37,34 @@
 
     <!-- main stylesheet -->
     <link rel="stylesheet" href="style.css" />
-    <title>Template</title>
+    <title>Quote Generator</title>
   </head>
   <body>
+    <div class="quote-container" id="quote-container">
+      <!-- Quote -->
+      <div class="quote-text">
+        <i class="fas fa-quote-left"></i>
+        <span id="quote">
+          <!-- quote text goes here dynamically! -->
+        </span>
+        <!-- Author -->
+        <div class="quote-author">
+          <span>-</span>
+          <span id="author">
+            <!-- quote author goes here dynamically! -->
+          </span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+          <button class="twitter-button" id="twitter" title="Tweet this !">
+            <i class="fab fa-twitter"></i>
+          </button>
+          <button id="new-quote">New Quote</button>
+        </div>
+      </div>
+    </div>
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
     <!-- main script -->
     <script src="./script.js"></script>
   </body>
