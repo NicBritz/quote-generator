@@ -1,3 +1,3 @@
-# JS-Prod-20-Template
+# Inspirational Quote generator
 
-Main template base for simple projects
+This is a simple quote generator that will alow you to generate a random quote and tweet it. You can find the hosted site here:
